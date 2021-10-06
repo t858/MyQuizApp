@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyQuizApp</title>
+    <link rel="stylesheet" href="MyQuiz.css">
+</head>
+<body>
+
+    <div class="qa_box">
+        <div class="qa_header">
+            <span>Score: <span id="score">0</span></span>
+            <span id="countdown">0</span>
+        </div>
+        <div class="qa_body">
+            <div class="qa_set active">
+                <h4>1. What is the name of the Town in the movie "Stranger Things"</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>New jersey</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Hawkins</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Queens</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Michilines</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>2. What year did Rihanna achieve global success with the mega-hit "Umbrella"</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>2016</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>2003</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>2001</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>2007</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>3. What disease does the male Mosquito cause</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Malaria</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Yellow Fever</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>All of the Above</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>None Of The Above</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>4. Who is considered the father of computers</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Alun Sedricck</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Charles Babbage</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Alice McDonalds</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Mark Adrelane</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>5. Who is the founder of Apple</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Marcley Carley</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Steve Jobs</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>James McDonalds</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>German Klinton</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>6. What is the full meaning of MIT</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Micro Intelligent Technology</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Main Internal Technology</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Massachusetts Institute Of Technology</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Monopoly Of International Trade</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>7. Who is Tommy Shelby in Peacky Blinders</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Cury Murply</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Cillian Murply</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Marcus Brincline</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Alas Walter</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>8. What is the capital of spain</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Francelo pico</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Madrid</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Arcttle pino</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Manianico</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>9. Who Wrote Oliver Twist</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Murphil Kyle</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Charles Dickens</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Jason Derrick</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Clark Castleways</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>10. What Color is a giraffe tougue</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Yellow</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Brown</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Dark Brown</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Blue</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>11. Who scored the first premier league hat-trick</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Branville Rico</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" >
+                    <span>Freeman Julico</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Jude Marpol</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Eric Canatona</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>12. Who is the  Queen's youngest child</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Prince Winston</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Prince Wilifred</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Prince Edward</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Prince Williams</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>13. What is lady Gaga's real name</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Lawrie Dorothea</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" >
+                    <span>Helena Marcelina</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Skyle Woose</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Stefani Germanotta</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>14. What is the name of Boris Johnson's newborn son</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Wilfred Lawis Cooper Johnson</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Wilfred Lawrie Nicholas Johnson</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>William Kyle Johnson</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>William Casinton Cooper Johnson</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>15. What is the capital of Switzerland</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Bern</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Mattaca</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Morchico</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Pruwa Nulei</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>16. Who Wrote Dracula</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Mattew Rangers</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Bryan Stalker</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Bram Stoker</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Clark Stakes</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>17. Which bird can fly backward</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>The Sun Bird</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>The humming bird</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>The arcelia Sparrow</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Pingilins</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>18. What is the name the character "Tom Cruise" in Top Gun</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Muchilis Morpholis</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Marcalis Brooklyn</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Markwell Stevenhood</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Maverick Mitchell</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>19. What is the capital of scotland</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Elikanias</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Edinburgh</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Morpholis</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Bistinville</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>20. Sofia is the Capital of what country</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Bulgaria</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Ukraine</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Slovokia</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Norway</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>21. Is the sun a star or a planet</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Stars</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Planet</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Star</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Planetoid</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>22. In which English seaside town was "Fawlty Towers" set</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Barclin</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Torquay</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Michinniphil</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Tennesville</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>23. It takes light how many minutes to reach us here on earth</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>3 minutes</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>5 minutes</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>1 minute</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>8 minutes</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>24. Who is the main character in "Fifty Shades of Grey"</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Gia Matteo</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Christian Grey</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Anastasia Steele</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Jack Hyde</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>25. Who is the Current Richest man in the world according to Forbes</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Bill Gates</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Jeff Bezos</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Elon Musk</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Bernard Arnault</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>26. What is the capital of canada</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Vancouver</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Ottawa</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Toronto</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Montreal</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>27. What Does HTTP stand for</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Hypertext Transfer Protocol</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Hypertext Transfer Procedures</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>HyperText Transfer Program</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Hypertext Transfer Protocols</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>28. What language is spoken in Brazil</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>French</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Portuguese</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Dutch</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Spanish</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>29. What is the Currency of Vietnam</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>franc</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>dong</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>kuna</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>peso</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>30. Area 51 is located in what state</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Florida</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Nevada</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>California</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Washington</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>31. Cynophobia is the fear of</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Cats</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Dogs</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Birds</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Spiders</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>32. The last letter on the Greek alphabet is </h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Marco</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Alpha</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Philo</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Omega</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>33. In What year was McDonalds founded</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>1955</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>1945</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>1967</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>1951</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>34. When did Facebook launch their very first chat Website</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>2004</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>2002</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>2006</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>2008</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>35. The original name for "Google" was</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Googleplex</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" >
+                    <span>SearcHub</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>BackRub</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>LookUp</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>36. Electronic music producer Kygo's popularity skyrocketed after making a certain Remix which was</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>It Ain't Me</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>I see Fire</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Good Bad Boy</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Drunk n alone</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>37. Nephalococcygia is the pratice of</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Staring at the sky at night</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Staring at the ceiling</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Finding shapes in clouds</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Day-dreaming</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>38. What is the symbol for copper</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Ad</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Co</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Cp</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Cu</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>39. What Japanese city was first hit by an Atomic bomb</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Jarkatta</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Tokyo</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Hiroshima</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Nagasaki</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>40. What Does GPU stand for</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Graphics Processing unit</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" >
+                    <span>Gig processing unit</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Graphics Programming unit</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Graphics processing utilities</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>41. What was the name given to the first Android 4.3</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Motorola</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Jelly Bean</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Cupcake</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Taco</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>42. What programming language has same name with an island</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Python</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Java</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Ruby</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Pearl</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>43. What is the nationality of Picasso</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>French</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Spanish</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Italian</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Russian</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>44. The People of Little Hangleton still called it "the Riddle House" even though it has been many years 
+                    since the riddle family lived there. This is the first line of which piece of written work
+                </h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Harry Potter and the Goblet of Fire</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Harry Potter and the Half blood prince</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>GooseBumps</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Harry Potter and the Deathly Hallows</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>45. In which movie series does "Neiville Longbottom appear"</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Stranger Things</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Lord of the Ring</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Harry Potter</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Game of Thrones</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>46. Published in 1597, which piece of written work starts with this line
+                    "Two households, both alike with dignity, in fair Verona, we lay our scene, from
+                    ancient grude break to new mutiny, where civil blood makes civil hands unclean.?"
+                </h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" >
+                    <span>Shallow grounds</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Doubled-edged Swords</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Romeo and Juliet</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Two can make one</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>47. What is James Bond's preferred drink of choice</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Brouchils</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Martini</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Mouchis</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>St Brucks</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>48. What geometric shape is generally used for stop signs</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Hexagon</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Octagon</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Decagon</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Kite</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>49. which component draws the most power, generally</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Video Cards</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>micro processor</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Ram</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Ports</span>
+                </div>
+            </div>
+            <div class="qa_set">
+                <h4>50. What animal breathes through its butt</h4>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Platypus</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al" valid="valid">
+                    <span>Turtle</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Pangolia</span>
+                </div>
+                <div class="qa_ans_row">
+                    <input type="radio" name="al">
+                    <span>Amadilo</span>
+                </div>
+            </div>
+            
+            <div class="qa_set">
+                <p></p>
+                <p></p>
+                <h4>Your total score <span id="totalscore"> 0 </span> out of 100</h4>
+            </div>
+        </div>
+        <div class="qa_footer">
+            <span class="btn1" id="skip">Skip</span>
+        </div>
+    </div>
+
+<script src="MyQuiz.js"></script>
+</body>
+</html>
